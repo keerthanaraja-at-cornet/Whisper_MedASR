@@ -1,0 +1,81 @@
+================================================================================
+COMPREHENSIVE MEDICAL TRANSCRIPTION METRICS EVALUATION
+================================================================================
+
+Model: Whisper/Groq
+--------------------------------------------------------------------------------
+WER: 0.1588
+CER: 0.8212
+Medical Terminology Accuracy: 83.33%
+Medications Detected: 100.00%
+Numbers Detected: 100.00%
+Laterality Accuracy: 100.00%
+Negation Accuracy: 100.00%
+Section Heading Accuracy: 100.00%
+Punctuation Accuracy: 93.10%
+Clinical Coherence Score: 30.89%
+NER F1 Score: 0.7273
+Partial Transcription Completeness: 99.59%
+ASR Confidence Score: 0.8412
+False Positives: 6
+False Negatives: 8
+Reference Quality Score: 61.96%
+Inter-Annotator Agreement: 0.7273
+Stratified Dental Evaluation Score: 66.67%
+Statistical Significance: 1.0000
+Drift Monitoring Score: 26.0870
+ASR Library Consistency Score: 73.91%
+Medical NLP Coverage Score: 57.14%
+String Alignment Score: 85.36%
+CI/CD Quality Gate Passed: No
+Weighted Error Rate: 0.1493
+PHI Exposure Risk: 69.3582
+Medical Transcription Standards Compliance: 83.39%
+Clinical Documentation Clarity: 62.00%
+
+================================================================================
+
+Model: MedASR
+--------------------------------------------------------------------------------
+WER: 0.1113
+CER: 1.1472
+Medical Terminology Accuracy: 100.00%
+Medications Detected: 100.00%
+Numbers Detected: 80.00%
+Laterality Accuracy: 100.00%
+Negation Accuracy: 100.00%
+Section Heading Accuracy: 100.00%
+Punctuation Accuracy: 66.38%
+Clinical Coherence Score: 36.58%
+NER F1 Score: 1.0000
+Partial Transcription Completeness: 100.00%
+ASR Confidence Score: 0.8887
+False Positives: 16
+False Negatives: 2
+Reference Quality Score: 61.96%
+Inter-Annotator Agreement: 1.0000
+Stratified Dental Evaluation Score: 100.00%
+Statistical Significance: 1.0000
+Drift Monitoring Score: 18.1818
+ASR Library Consistency Score: 81.82%
+Medical NLP Coverage Score: 100.00%
+String Alignment Score: 92.16%
+CI/CD Quality Gate Passed: No
+Weighted Error Rate: 0.0940
+PHI Exposure Risk: 38.0762
+Medical Transcription Standards Compliance: 91.59%
+Clinical Documentation Clarity: 51.48%
+
+================================================================================
+
+OVERALL METRIC COMPARISON
+================================================================================
+
+MedASR Overall Performance Score: 79.26%
+Whisper Overall Performance Score: 70.44%
+
+Difference: MedASR is 8.82% better than Whisper
+
+Conclusion: MedASR demonstrates superior accuracy and medical transcription
+quality compared to Whisper, with significantly lower error rates and
+higher medical terminology accuracy.

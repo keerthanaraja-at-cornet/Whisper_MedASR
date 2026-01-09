@@ -1,0 +1,29 @@
+# Audio files
+audio/*.wav
+audio/*.mp3
+audio/*.flac
+audio/*.m4a
+
+# Environment variables
+.env
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+venv/
+env/
+ENV/
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+
+
